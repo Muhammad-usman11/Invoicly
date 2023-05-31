@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.wrapper{
+    max-width: 1280px;
+    margin: auto;
+    width: 90%;
+}
+img{
+    width: 100%;
+}
+button{
+    user-select: none;
+}
+
+.footertext{
+    color: rgb(167, 163, 163);
+}
+.pii{
+    font-size: 35px;
+color: navy;
+text-align: center;
+font-weight: bold;
+}
+
+
+
+
+@media (max-width: 768px) {
+   .fbox{
+    text-align: center;
+   }
+   .editbtn{
+    text-align: center;
+   }
+   .logo{
+    text-align: center;
+    
+   }
+   .tdata{
+    font-size: 14px;
+   }
+   .pii{
+    font-size: 20px;
+   }
+}
+  
+
+
